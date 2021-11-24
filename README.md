@@ -1,6 +1,6 @@
 # [Hon 30+ Projects th?c chi?n - HTML CSS JavaScript](https://www.nodemy.vn/projects-html-css-js)
 
-???? **[Chi ti?t 30 projects th?c chi?n HTML CSS Javascript](https://www.nodemy.vn/projects-html-css-js)** ????
+???? **[Chi tiết 30 projects thực chiến HTML CSS Javascript](https://www.nodemy.vn/projects-html-css-js)** ????
 
 |  #  | Project     | Live Demo |
 | :-: | --- | ---- |
@@ -26,7 +26,7 @@
 | 20  | [Typing Animation Effect]()     | [Live Demo]()     |
 
 
-**T�NH NANG:**
+**TÍNH NĂNG:**
 
-- Live-demo: Xem demo tr?c ti?p
+- Live-demo: Xem demo trực tiếp
 - Github: Link source
