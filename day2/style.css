@@ -1,0 +1,90 @@
+:root {
+    --pink-color: #f2726a;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(45deg, #00853e, #50c878);
+    height: 100%;
+    justify-content: center;
+}
+.cart {
+    margin: 181px auto;
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.cart__one,
+.cart__two,
+.cart__three {
+    width: 300px;
+    height: 400px;
+    background-color: #242628;
+    text-align: center;
+    margin: 0 30px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.cart__img {
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    margin: 0 auto;
+    cursor: pointer;
+    border-radius: 50%;
+    transform: translateY(25px);
+    border: 4px solid var(--pink-color);
+}
+.cart__img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+h2 {
+    color: white;
+    margin-top: 42px;
+}
+p {
+    color: var(--pink-color);
+    font-size: 18px;
+}
+.card__social-link {
+    margin: 25px 20px 40px;
+    display: inline-block;
+}
+i {
+    font-size: 22px;
+    color: white;
+}
+.card__social-link:hover i {
+    color: var(--pink-color);
+    transition: 0.3s;
+}
+.cart__contact button {
+    padding: 10px 20px;
+    outline: none;
+    border: 1px solid var(--pink-color);
+    background: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.cart__contact button:hover {
+    background: var(--pink-color);
+    transition: 0.4s;
+}
+.cart__img:hover{
+    width: 100%;
+    height: 100%;
+    border: unset;
+    transform: unset;
+    border-radius: unset;
+    transition: 0.3s;
+}
